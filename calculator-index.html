@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calculator-styles.css">
+  <title>Basic Calculator</title>
+</head>
+<body>
+  <div id="container">
+    <input id="display" readonly>
+    <div id="numPadContainer">
+      <button onclick="clearDisplay()" class="special">C</button>
+      <button onclick="backspaceDisplay()" class="special"><</button>
+      <button onclick="displayTxt('%')" class="special">%</button>
+      <button onclick="displayTxt('/')" class="special">/</button>
+      <button onclick="displayTxt('7')">7</button>
+      <button onclick="displayTxt('8')">8</button>
+      <button onclick="displayTxt('9')">9</button>
+      <button onclick="displayTxt('x')" class="special">x</button>
+      <button onclick="displayTxt('4')">4</button>
+      <button onclick="displayTxt('5')">5</button>
+      <button onclick="displayTxt('6')">6</button>
+      <button onclick="displayTxt('-')" class="special">-</button>
+      <button onclick="displayTxt('1')">1</button>
+      <button onclick="displayTxt('2')">2</button>
+      <button onclick="displayTxt('3')">3</button>
+      <button onclick="displayTxt('+')" class="special">+</button>
+      <button onclick="displayTxt('#')">#</button>
+      <button onclick="displayTxt('0')">0</button>
+      <button onclick="displayTxt('.')">.</button>
+      <button onclick="calculate()" class="special">=</button>
+
+      <!--<div class="video-container" id="videoContainer">
+        <iframe
+        id="youtubeVideo"
+        src=""
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      </div>-->
+    </div>
+  </div>
+  <script src="calculator-script.js"></script>
+</body>
+</html>
