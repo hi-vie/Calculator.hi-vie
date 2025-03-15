@@ -20,7 +20,7 @@ function calculate() {
   try {
     eval(calculate);
 
-    display.value = `i miss you guys :(`;
+    display.value = `i miss you :(`;
 
     setTimeout(() => {
       window.open("https://youtu.be/wk4dkPf08zw?si=sS1eGYtiOReRHINL&t=4", "_blank");
