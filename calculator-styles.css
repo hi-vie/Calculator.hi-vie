@@ -1,18 +1,18 @@
-html, body {
-  margin: 0;
-  padding: 0;
+body {
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  box-sizing: border-box;
 }
 
 #container {
   background-color: black;
   border-radius: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 90%;
-  width: 400px;
+  max-width: 380px;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -21,8 +21,8 @@ html, body {
   border: none;
   border-radius: 5px;
   width: 100%;
-  padding: 15px;
-  font-size: 2rem;
+  padding: 20px;
+  font-size: 3rem;
   text-align: left;
   color: white;
   overflow: hidden;
@@ -44,17 +44,15 @@ html, body {
 }
 
 button {
-  width: 22vw;
-  height: 12vh;
+  width: 70px;
+  height: 70px;
   border: none;
   border-radius: 50px;
   background-color: hsl(0, 0%, 50%);
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   cursor: pointer;
-  max-width: 100px;
-  max-height: 80px;
 }
 
 button:hover {
@@ -79,11 +77,6 @@ button:active{
 .special:active {
   background-color: hsl(42, 87%, 65%);
 }
-
-@media (max-width: 600px) { 
-  #numPadContainer {
-    gap: 10px; /* Reduce spacing on small screens */
-    padding: 10px
 
 /**.video-container {
   display: none;
