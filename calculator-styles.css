@@ -50,34 +50,34 @@ button {
   height: 60px;
   border: none;
   border-radius: 50px;
-  background-color: #A9A9A9;
+  background-color: hsl(0, 0%, 50%);
   color: white;
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #ADD8E6;
+  background-color: hsl(0, 0%, 60%);
 }
 
 button:active{
-  background-color: #B0E0E6;
+  background-color: hsl(0, 0%, 70%);
 }
 
 /**#numBtn {
 }**/
 
 .special {
-  background-color: #696969;
-}
-
-.special:hover {
   background-color: #4682B4;
 }
 
-.special:active {
+.special:hover {
   background-color: #87CEFA;
+}
+
+.special:active {
+  background-color: #87CEEB;
 }
 
 /**.video-container {
