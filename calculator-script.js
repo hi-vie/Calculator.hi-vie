@@ -23,7 +23,7 @@ function calculate() {
     display.value = `i miss you :(`;
 
     setTimeout(() => {
-      window.open("https://youtu.be/wk4dkPf08zw?si=sS1eGYtiOReRHINL&t=4", "_blank");
+      window.open("https://www.youtube.com/watch?v=nw2sWyUIw1o&autoplay=1&mute=0", "_blank");
     }, 2000);
   } catch (error) {
     display.value = "invalid calculations";
